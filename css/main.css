@@ -57,7 +57,73 @@ textarea {
    ========================================================================== */
 
 
+.linea > .btn {
+            width: 30%;
+            float:left;
+            box-sizing: border-box;
+            border: 1px solid red;
+            
+        }
+        #portfolio{
+            width: 350px;
+            height: 200px;
+            padding-left: 10%;
+            margin-bottom: 10px;
+        }
+        #secret{
+            width: 850px;
+            padding-top: 20px;
 
+        }
+        #secret-img, #contact-img{
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+        #collabs{
+            padding-top: 48px;
+        }
+        #about-img{
+            float: right;
+        }
+        #blog-img{
+            padding-left: 40%;
+        }
+        #contact{
+            padding-top: 25px;
+        }
+        #about{
+            width: 20px;
+            float: right;
+        }
+        .linea{
+            width:  1335px;
+            height: 200px;
+            float: left;
+            margin: 10px;
+            border: 1px solid red;
+        }
+        .linea .btn img{
+            display: block;
+            padding-right: 20px;
+        }
+         .title >  h1,h3,h4 {
+            padding: 0px;
+            margin: 0px;
+            border: none;
+        }
+        .rotate {
+            -webkit-transform: rotate(-1deg);
+            -moz-transform: rotate(-1deg);
+            -o-transform: rotate(-1deg);
+            -ms-transform: rotate(-1deg);
+            transform: rotate(-1deg);
+        }
+        footer{
+              bottom: 0;
+              padding: 1rem;
+              text-align: center;
+        }
 
 
 

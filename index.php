@@ -38,92 +38,105 @@
     </head>
     <body>
        
-       <div class="principal">
-
-       <header align="right">
-           
-            <div id="title">
-
-                <h1>By Lesassier</h1>
-                <h3> Manisfestation through visuals.</h3>
+      <header align="right">
+            <div class="title">
+             <img src="<?php echo $this->baseurl ?>/img/title.jpg" alt="ByLesassier" width="370px" height="70px" id = "title-img" style="left:60%" >
+             <br>
+              <img src="<?php echo $this->baseurl ?>/img/subtitle.jpg" alt="Manisfestation through visuals" width="500px" height="40px" id = "subtitle-img" style="left:60%" >
+             <br>
+              <!-- 
                 <h4> "All & none of what you need" </h4>
-                
+              -->
             </div>
-
          </header>
+       <main>
 
-       <div class="content">
-
-            <div class="btn" id="portfolio">
-
+           <div class="linea">
                 
-                
+                <div class="btn" id="portfolio">
+                     <img src="<?php echo $this->baseurl ?>/img/portfolio.jpg" alt="portfolio" width="320px" height="200px" class="rotate" id = "portfolio-img" >
+                        
+                </div>
+                <div class="btn" id="secret" >
+
+                    <img src="<?php echo $this->baseurl ?>/img/secret.jpg" alt="secret" width="20px" height="20px" id = "secret-img" style="display: block;" >
+                                        
+                </div>
+
             </div>
-            <div class="btn" id="secret">
+            <div class="linea">
+                    <div class="btn" id="collabs">
 
-                
-                
+                    <img src="<?php echo $this->baseurl ?>/img/profilez.jpg" alt="collabs" width="320px" height="150px" id = "collabs-img">
+                       
+                        
+                    </div>
+
+                    <div class="btn" id="movements">
+
+                    <img src="<?php echo $this->baseurl ?>/img/movement.jpg" alt="movements" width="320px" height="200px" id = "movements-img">
+                        
+                        
+                    </div>
+
+                    <div class="btn" id="contact">
+                        <a href="https://www.instagram.com/bylesassier/">
+                            <img src="<?php echo $this->baseurl ?>/img/contact.jpg" alt="contact" width="110px" height="110px" id = "contact-img">
+                        </a>
+                        
+                    </div>
             </div>
-            <div class="btn" id="collabs">
+            <div class="linea">
+                    <div class="btn" id="vintage">
 
+                    <img src="<?php echo $this->baseurl ?>/img/vintage.jpg" alt="vintage" width="320px" height="150px" id = "vintage-img">
+                        
+                        
+                    </div>
+                    <div class="btn" id="press">
+
+                    <img src="<?php echo $this->baseurl ?>/img/press.jpg" alt="press" width="320px" height="150px" id = "press-img">
+                        
+                        
+                    </div>
+                    <div class="btn" id="one-off">
+
+                    <img src="<?php echo $this->baseurl ?>/img/1-offs.jpg" alt="1-offs" width="320px" height="150px" id = "one-off-img">
+                        
+                        
+                    </div>
+                    <div class="btn" id="about">
+
+                        
+                    <img src="<?php echo $this->baseurl ?>/img/about.jpg" alt="about" width="100px" height="50px" id = "about-img" >
+                        
+                    </div>
+            </div>
+            <div class="linea">
+                <div class="btn" id="shop">
+                    <a href="https://www.bit.ly/freevenezuelatee">
+                        <img src="<?php echo $this->baseurl ?>/img/shop.jpg" alt="shop" width="320px" height="150px" id = "shop-img" >
+                    </a>
+                </div>
+                <div class="btn" id="blog">
+                
+                        <img src="<?php echo $this->baseurl ?>/img/blog.jpg" alt="Blog" width="150px" height="50px" id = "blog-img" >
+                    
+                </div>
+                <div class="btn" id="head">
+                    
+                    <img src="<?php echo $this->baseurl ?>/img/head.jpg" alt="Head" width="320px" height="150px" id = "head-img" >
+                    
+                </div>
                
-                
-            </div>
-            <div class="btn" id="movements">
 
-                
-                
-            </div>
-            <div class="btn" id="contact">
-
-                
-                
-            </div>
-            <div class="btn" id="vintage">
-
-                
-                
-            </div>
-            <div class="btn" id="press">
-
-                
-                
-            </div>
-            <div class="btn" id="one-off">
-
-                
-                
-            </div>
-            <div class="btn" id="about">
-
-                
-                
-            </div>
-            <div class="btn" id="shop">
-
-                
 
             </div>
-            <div class="btn" id="blog">
-
-                
-                
-            </div>
-            <div class="btn" id="head">
-
-                
-                
-            </div>
-           
-
-
-       </div>
-           
-
-       </div>
-       <div class="footer">
-           
-       </div>
+            
+       </main>
+       <footer>
+            <small>&copy; Copyright 2018, ByLesassier Corporation</small>
+       </footer>
 
        
 
